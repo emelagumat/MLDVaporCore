@@ -1,0 +1,5 @@
+Package.resolved
+.swiftpm/xcode/xcuserdata/*
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/xcode/package.xcworkspace/xcuserdata/*
+.swiftpm/xcode/package.xcworkspace/xcshareddata/
