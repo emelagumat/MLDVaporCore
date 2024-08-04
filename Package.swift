@@ -20,6 +20,13 @@ let package = Package(
             dependencies: [
                 .product(name: "Vapor", package: "vapor"),
             ]
+        ),
+        .testTarget(
+            name: "MLDVaporCoreTests",
+            dependencies: [
+                "MLDVaporCore",
+                .product(name: "XCTVapor", package: "vapor")
+            ]
         )
     ]
 )
